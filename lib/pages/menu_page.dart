@@ -34,6 +34,11 @@ class MenuPage extends StatelessWidget {
             title: 'Example images',
             actionTap: () => 
               Navigator.pushNamed(context, 'imagesRow'),
+          ),
+          MyMenuButton(
+            title: 'Example Card',
+            actionTap: () => 
+              Navigator.pushNamed(context, 'card'),
           )
         ],
       ),

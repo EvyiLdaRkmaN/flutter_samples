@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_samples/pages/AnimationButton/ButtonLoading.dart';
+import 'package:flutter_samples/pages/ExampleCardBorrable/Card.dart';
 import 'package:flutter_samples/pages/ImagesRow/ImagesRow.dart';
 import 'package:flutter_samples/pages/menu_page.dart';
 import 'package:flutter_samples/pages/routes/page1.dart';
@@ -33,6 +34,7 @@ class MyApp extends StatelessWidget {
         'page3' : (context)=> PageThreePage(),
         'buttonLoading' : (context)=> ButtonLoadingPage(),
         'imagesRow' : (context)=> ImagesRow(),
+        'card' : (context)=> CardPage(),
       },
     );
   }
