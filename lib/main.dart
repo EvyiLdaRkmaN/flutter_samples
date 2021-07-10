@@ -6,6 +6,7 @@ import 'package:flutter_samples/pages/menu_page.dart';
 import 'package:flutter_samples/pages/routes/page1.dart';
 import 'package:flutter_samples/pages/routes/page2.dart';
 import 'package:flutter_samples/pages/routes/page3.dart';
+import 'package:flutter_samples/pages/singleton/singleton_page.dart';
 import 'package:flutter_samples/pages/streams/example_page.dart';
 
 void main() {
@@ -35,6 +36,7 @@ class MyApp extends StatelessWidget {
         'buttonLoading' : (context)=> ButtonLoadingPage(),
         'imagesRow' : (context)=> ImagesRow(),
         'card' : (context)=> CardPage(),
+        'singleton' : (context)=> SingletonPage(),
       },
     );
   }
