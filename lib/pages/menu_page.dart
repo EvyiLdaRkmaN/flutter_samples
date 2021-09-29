@@ -44,7 +44,12 @@ class MenuPage extends StatelessWidget {
             title: 'Example Singleton',
             actionTap: () => 
               Navigator.pushNamed(context, 'singleton'),
-          )
+          ),
+          MyMenuButton(
+            title: 'Example InheritedWidget',
+            actionTap: () => 
+              Navigator.pushNamed(context, 'inherited'),
+          ),
         ],
       ),
    );
